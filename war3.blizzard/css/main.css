@@ -1,0 +1,187 @@
+/* 设计图多大 就用量出来的尺寸/设计图/10 */
+/* 88px/64 */
+/* 88px/75 */
+/* 88px/112.5 */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* <!-- 1. 顶部 --> */
+header {
+  width: 100%;
+  height: calc(95rem / 64);
+  background-color: #252525;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+/* <!-- 1-1顶部左边 --> */
+header .aa {
+
+  float: left;
+  width: calc(90rem / 64);
+  height: calc(70rem / 64);
+  background-image: url(../image/1_fsbnet_icon-sprite2.png);
+  background-size: calc(95rem / 64) calc(71rem / 64);
+  margin: calc(14rem / 64) calc(0rem / 64);
+}
+
+/* <!-- 1-1顶部中间 --> */
+header .bb {
+  float: left;
+  width: calc(85rem / 64);
+  height: calc(83rem / 64);
+  background-image: url(../image/1_war3-website_home_4XXM5CR1X8XJ1541005870859.png);
+  background-size: calc(85rem / 64) calc(83rem / 64);
+  margin: calc(5rem / 64) calc(187rem / 64);
+}
+
+/* <!-- 1-2顶部右边 --> */
+header .cc {
+  float: right;
+  width: calc(90rem / 64);
+  height: calc(70rem / 64);
+  background-image: url(../image/1_fsbnet_icon-sprite4.png);
+  background-size: calc(95rem / 64) calc(71rem / 64);
+  margin: calc(14rem / 64) calc(0rem / 64);
+}
+
+
+/* <!-- 2.动画 --> */
+.box {
+  width: 100%;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  z-index: 10;
+  background: url(../image/1_war3-website_home_SE8QH0AR89YI1540326720433.jpg) no-repeat 50% 0;
+  background-size: cover;
+  height: 15.5rem;
+  z-index: -10;
+}
+
+.box .pictures-linking-1 {
+  position: absolute;
+  top: calc(119rem / 64);
+  left: calc(60rem / 64);
+  width: calc(533rem / 64);
+  height: calc(329rem / 64);
+  background-image: url(../image/1_war3-website_home_DXDAN5KT326U1541005861696.png);
+  background-size: calc(543rem / 64) calc(348rem / 64);
+  margin: calc(0rem / 64) calc(0rem/ 64);
+}
+
+
+.box .pictures-linking-a {
+  position: absolute;
+  top: calc(492rem / 64);
+  left: calc(69rem / 64);
+  width: calc(468rem / 64);
+  height: calc(100rem / 64);
+  margin: calc(0rem / 64) calc(0rem/ 64);
+  color: #ffff;
+  font-size: calc(78rem / 64);
+}
+
+
+
+
+.box .pictures-linking-2 {
+  position: absolute;
+  top: calc(614rem / 64);
+  left: calc(69rem / 64);
+  width: calc(468rem / 64);
+  height: calc(100rem / 64);
+  background-image: url(../image/1_tm_blz_war3_dzMobile1.jpg);
+  background-size: calc(468rem / 64) calc(100rem / 64);
+  margin: calc(0rem / 64) calc(0rem/ 64);
+}
+
+
+.box .pictures-linking-3 {
+  position: absolute;
+  top: calc(749rem / 64);
+  left: calc(69rem / 64);
+  width: calc(468rem / 64);
+  height: calc(100rem / 64);
+  background-image: url(../image/1_tm_blz_war3_applyMobile2.jpg);
+  background-size: calc(468rem / 64) calc(100rem / 64);
+  margin: calc(0rem / 64) calc(0rem/ 64);
+}
+
+
+
+.box .pictures-linking-4 {
+  position: absolute;
+  top: calc(850rem / 64);
+  left: calc(69rem / 64);
+  width: calc(91rem / 64);
+  height: calc(91rem / 64);
+  background-image: url(../image/1_tm_blz_war3_videoBtn3.png);
+  background-size: calc(91rem / 64) calc(91rem / 64);
+  margin: calc(26rem / 64) calc(190rem/ 64);
+}
+
+.new {
+  width: 100%;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  height: calc(26rem/64);
+  margin-top: 14.4rem
+}
+
+/* <!-- 3.最新消息 --> */
+.new .latest-news-pictures-1 {
+  position: relative;
+  height: calc(26rem/64);
+  width: 100%;
+
+}
+
+.new .latest-news-pictures-1 {
+  width: 100%;
+  height: calc(26rem / 64);
+  background-image: url(../image/2_tm_blz_war3_line\.png);
+  background-repeat: no-repeat;
+}
+
+.new .latest-news-pictures-2 img {
+  position: absolute;
+  /* width: 100%; */
+  width: calc(640rem / 64);
+  height: calc(1119rem / 64);
+
+
+}
+
+.new span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.new-a {
+  width: 100%;
+}
+
+.new-a img {
+  position: absolute;
+  /* top: calc(850rem / 64);
+  left: calc(69rem / 64); */
+  width: 100%;
+  height: calc(30rem / 64);
+  background-size: calc(91rem / 64) calc(91rem / 64);
+  /* margin: calc(26rem / 64) calc(190rem/ 64); */
+}

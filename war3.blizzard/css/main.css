@@ -12,6 +12,7 @@ body {
 
 /* <!-- 1. 顶部 --> */
 header {
+  /* float: left; */
   width: 100%;
   height: calc(95rem / 64);
   background-color: #252525;
@@ -22,7 +23,6 @@ header {
 
 /* <!-- 1-1顶部左边 --> */
 header .aa {
-
   float: left;
   width: calc(90rem / 64);
   height: calc(70rem / 64);
@@ -53,79 +53,74 @@ header .cc {
 
 
 /* <!-- 2.动画 --> */
-.box {
+.boc-linking {
+  position: relative;
   width: 100%;
   overflow: hidden;
 }
 
 .box {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  height: 75px;
-  width: 100%;
-  z-index: 10;
-  background: url(../image/1_war3-website_home_SE8QH0AR89YI1540326720433.jpg) no-repeat 50% 0;
+  background: url(../image/1_war3-website_home_SE8QH0AR89YI1540326720433.jpg) no-repeat 53% 0;
   background-size: cover;
-  height: 15.5rem;
-  z-index: -10;
+  /* height: 15.5rem; */
+  width: 100%;
+  height: calc(1018rem / 64);
+  margin: calc(-74rem / 64) calc(0rem / 64);
 }
 
-.box .pictures-linking-1 {
+.box-aa {
   position: absolute;
-  top: calc(119rem / 64);
-  left: calc(60rem / 64);
+  top: 490px;
+  left: 57px;
+  width: 100%;
+  margin: calc(-801rem / 64) calc(0rem / 64);
+}
+
+
+
+
+
+.box-aa .pictures-linking-1 {
   width: calc(533rem / 64);
   height: calc(329rem / 64);
   background-image: url(../image/1_war3-website_home_DXDAN5KT326U1541005861696.png);
   background-size: calc(543rem / 64) calc(348rem / 64);
-  margin: calc(0rem / 64) calc(0rem/ 64);
+  margin: calc(0rem / 64) calc(-43rem/ 64);
 }
 
 
-.box .pictures-linking-a {
-  position: absolute;
-  top: calc(492rem / 64);
-  left: calc(69rem / 64);
-  width: calc(468rem / 64);
-  height: calc(100rem / 64);
-  margin: calc(0rem / 64) calc(0rem/ 64);
+.box-aa .pictures-linking-a {
+  /* width: calc(468rem / 64);
+  height: calc(100rem / 64); */
+  margin: calc(0rem / 64) calc(95rem/ 64);
   color: #ffff;
-  font-size: calc(78rem / 64);
+  font-size: calc(47rem / 64);
 }
 
 
 
 
-.box .pictures-linking-2 {
-  position: absolute;
-  top: calc(614rem / 64);
-  left: calc(69rem / 64);
-  width: calc(468rem / 64);
+.box-aa .pictures-linking-2 {
+  width: calc(431rem / 64);
   height: calc(100rem / 64);
   background-image: url(../image/1_tm_blz_war3_dzMobile1.jpg);
-  background-size: calc(468rem / 64) calc(100rem / 64);
-  margin: calc(0rem / 64) calc(0rem/ 64);
+  background-size: calc(431rem / 64) calc(100rem / 64);
+  margin: calc(24rem / 64) calc(0rem/ 64);
+
 }
 
 
-.box .pictures-linking-3 {
-  position: absolute;
-  top: calc(749rem / 64);
-  left: calc(69rem / 64);
-  width: calc(468rem / 64);
+.box-aa .pictures-linking-3 {
+  width: calc(431rem / 64);
   height: calc(100rem / 64);
   background-image: url(../image/1_tm_blz_war3_applyMobile2.jpg);
-  background-size: calc(468rem / 64) calc(100rem / 64);
+  background-size: calc(431rem / 64) calc(100rem / 64);
   margin: calc(0rem / 64) calc(0rem/ 64);
 }
 
 
 
-.box .pictures-linking-4 {
-  position: absolute;
-  top: calc(850rem / 64);
-  left: calc(69rem / 64);
+.box-aa .pictures-linking-4 {
   width: calc(91rem / 64);
   height: calc(91rem / 64);
   background-image: url(../image/1_tm_blz_war3_videoBtn3.png);
@@ -133,55 +128,645 @@ header .cc {
   margin: calc(26rem / 64) calc(190rem/ 64);
 }
 
-.new {
-  width: 100%;
-  display: block;
-  height: 100%;
-  overflow: hidden;
-  height: calc(26rem/64);
-  margin-top: 14.4rem
-}
 
 /* <!-- 3.最新消息 --> */
-.new .latest-news-pictures-1 {
+.new {
+  overflow: hidden;
   position: relative;
-  height: calc(26rem/64);
-  width: 100%;
-
 }
 
-.new .latest-news-pictures-1 {
+.new i {
+  float: left;
   width: 100%;
-  height: calc(26rem / 64);
-  background-image: url(../image/2_tm_blz_war3_line\.png);
-  background-repeat: no-repeat;
+  height: calc(32rem / 64);
+  background-image: url(../image/2_tm_blz_war3_line.png);
+  margin: calc(-7rem / 64) calc(0rem/ 64);
 }
 
-.new .latest-news-pictures-2 img {
+.aa-a {
+  overflow: hidden;
+}
+
+.aa-a i {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  height: calc(1000rem / 64);
+  background-image: url(../image/2_tm_blz_war3_section2-bg.jpg);
+  margin: calc(-7rem / 64) calc(0rem/ 64);
+}
+
+.latest-news {
   position: absolute;
-  /* width: 100%; */
-  width: calc(640rem / 64);
-  height: calc(1119rem / 64);
+  top: calc(1037rem / 64);
+  left: calc(97rem / 64);
+  width: calc(450rem / 64);
+  height: calc(900rem / 64);
+  text-align: center;
+}
 
+.latest-news span {
+  font-size: calc(45rem / 64);
+  color: #ffff;
 
 }
 
-.new span {
-  color: #fff;
-  font-weight: 700;
-  font-size: 30px;
+
+.latest-news i {
+  float: left;
+  width: calc(459rem / 64);
+  height: calc(32rem / 64);
+  background-image: url(../image/3_tm_blz_war3_title-line.png);
+  background-size: calc(459rem / 64) calc(32rem / 64);
+  margin: calc(20rem / 64) calc(0rem/ 64);
 }
 
-.new-a {
-  width: 100%;
+.lbtu img {
+  width: calc(571rem / 64);
+  height: calc(209rem / 64);
+  margin: calc(0rem / 64) calc(-67rem/ 64);
 }
 
-.new-a img {
-  position: absolute;
-  /* top: calc(850rem / 64);
-  left: calc(69rem / 64); */
-  width: 100%;
+.latest-news-lj {
+  float: left;
+  width: calc(416rem / 64);
+  height: calc(404rem / 64);
+  margin: calc(11rem / 64) calc(0rem / 64);
+}
+
+
+
+.latest-news-lj1 {
+  width: calc(338rem / 64);
+  height: calc(34rem / 64);
+}
+
+.latest-news-lj1 span {
+  font-size: calc(10rem / 64);
+  color: #ffff;
+  margin: calc(0rem / 64) calc(10rem / 64);
+}
+
+
+.latest-news-lja {
+  width: calc(450rem / 64);
+  height: calc(70rem / 64);
+}
+
+.latest-news-lja .gg {
+  text-align: center;
+  float: left;
+  width: calc(48rem / 64);
   height: calc(30rem / 64);
-  background-size: calc(91rem / 64) calc(91rem / 64);
-  /* margin: calc(26rem / 64) calc(190rem/ 64); */
+  background-color: #465f7d;
+  line-height: calc(22rem / 64);
+  margin: calc(20rem / 64) calc(0rem / 64);
 }
+
+
+.latest-news-lja span {
+  float: right;
+  font-size: calc(2rem / 64);
+  color: #ffff;
+  margin: calc(5rem / 64) calc(3rem / 64);
+}
+
+.latest-news-ljb {
+  width: calc(338rem / 64);
+  height: calc(22rem / 64);
+}
+
+.latest-news-ljb .gg {
+  text-align: center;
+  float: left;
+  width: calc(45rem / 64);
+  height: calc(30rem / 64);
+  background-color: #465f7d;
+  line-height: calc(22rem / 64);
+  margin: calc(10rem / 64) calc(0rem / 64);
+}
+
+.latest-news-ljb .gg span {
+  margin: calc(3rem / 64) calc(2rem / 64);
+}
+
+
+
+
+.latest-news-ljb span {
+  float: right;
+  font-size: calc(2rem / 64);
+  color: #ffff;
+  margin: calc(8rem / 64) calc(-109rem / 64);
+}
+
+.latest-news-lja .kk {
+  float: left;
+  display: block;
+  width: calc(250rem / 64);
+  height: calc(32rem / 64);
+  margin: calc(11rem / 64) calc(0rem / 64);
+}
+
+
+.latest-news-ljb .kk {
+  float: left;
+  display: block;
+  width: calc(250rem / 64);
+  height: calc(32rem / 64);
+  margin: calc(11rem / 64) calc(17rem / 64);
+}
+
+
+.latest-news-ljb .ll {
+  width: calc(378rem / 64);
+  height: calc(41rem / 64);
+  margin: calc(97rem / 64) calc(17rem / 64);
+  background-color: #4c4036;
+}
+
+
+.ll a {
+  color: #978f84;
+  font-size: calc(4rem / 64);
+  line-height: calc(41rem / 64);
+}
+
+/* <!-- 3-1轮播图 --> */
+
+.bb-b {
+  overflow: hidden;
+  /* position: relative; */
+}
+
+.bb-b i {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: calc(1000rem / 64);
+  background-image: url(../image/4_tm_blz_war3_section3-bg.jpg);
+  margin: calc(-7rem / 64) calc(0rem/ 64);
+}
+
+.rotation-chart {
+  position: absolute;
+  float: left;
+  top: calc(2051rem / 64);
+  left: calc(8rem / 64);
+  width: calc(626rem / 64);
+  height: calc(883rem / 64);
+  text-align: center;
+}
+
+.rotation-chart h4 {
+  color: #f1bd37;
+  font-size: calc(30rem / 64);
+}
+
+.rotation-chart h3 {
+  color: #ffffff;
+  font-size: calc(40rem / 64);
+}
+
+
+.rotation-chart i {
+  float: left;
+  width: calc(459rem / 64);
+  height: calc(32rem / 64);
+  background-image: url(../image/3_tm_blz_war3_title-line.png);
+  background-size: calc(459rem / 64) calc(32rem / 64);
+  margin: calc(20rem / 64) calc(90rem/ 64);
+}
+
+
+/* <!-- 5.玩法 --> */
+
+
+.ss-s {
+  overflow: hidden;
+}
+
+.ss-s i {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: calc(1000rem / 64);
+  background-image: url(../image/5_tm_blz_war3_section4-bg.jpg);
+  margin: calc(-7rem / 64) calc(0rem/ 64);
+}
+
+.take {
+  position: absolute;
+  float: left;
+  top: calc(3058rem / 64);
+  left: calc(8rem / 64);
+  width: calc(626rem / 64);
+  height: calc(883rem / 64);
+  text-align: center;
+}
+
+.take h4 {
+  color: #f1bd37;
+  font-size: calc(30rem / 64);
+}
+
+.take h3 {
+  color: #ffffff;
+  font-size: calc(40rem / 64);
+}
+
+
+.take i {
+  float: left;
+  width: calc(459rem / 64);
+  height: calc(32rem / 64);
+  background-image: url(../image/3_tm_blz_war3_title-line.png);
+  background-size: calc(459rem / 64) calc(32rem / 64);
+  margin: calc(20rem / 64) calc(90rem/ 64);
+}
+
+.take-laws i {
+  float: left;
+  width: calc(576rem / 64);
+  height: calc(203rem / 64);
+  background-image: url(../image/5_tm_blz_war3_play2-mobile.jpg);
+  background-size: calc(576rem / 64) calc(203rem / 64);
+  margin: calc(13rem / 64) calc(18rem/ 64);
+}
+
+.take-laws h5 {
+  float: left;
+  position: relative;
+  top: calc(-209rem/ 64);
+  left: calc(25rem/ 64);
+  font-size: calc(32rem/ 64);
+  color: #ffffff;
+  margin: calc(13rem / 64) calc(18rem/ 64);
+}
+
+
+.take-laws img {
+  width: calc(20rem / 64);
+  height: calc(30rem / 64);
+  background-size: calc(20rem / 64) calc(30rem / 64);
+  margin: calc(-5rem / 64) calc(0rem/ 64);
+
+}
+
+.take-laws p {
+  float: left;
+  position: relative;
+  top: calc(-186rem/ 64);
+  left: calc(25rem/ 64);
+  font-size: calc(20rem/ 64);
+  color: #798a95;
+  margin: calc(2rem / 64) calc(51rem/ 64);
+}
+
+
+.take-lawsa i {
+  float: left;
+  width: calc(576rem / 64);
+  height: calc(203rem / 64);
+  background-image: url(../image/5_tm_blz_war3_play1-mobile.jpg);
+  background-size: calc(576rem / 64) calc(203rem / 64);
+  margin: calc(-80rem / 64) calc(18rem/ 64);
+}
+
+.take-lawsa h5 {
+  float: left;
+  position: relative;
+  top: calc(-102rem/ 64);
+  left: calc(25rem/ 64);
+  font-size: calc(32rem/ 64);
+  color: #ffffff;
+  margin: calc(22rem / 64) calc(18rem/ 64);
+}
+
+
+.take-lawsa img {
+  width: calc(20rem / 64);
+  height: calc(30rem / 64);
+  background-size: calc(20rem / 64) calc(30rem / 64);
+  margin: calc(-5rem / 64) calc(0rem/ 64);
+
+}
+
+.take-lawsa p {
+  float: left;
+  position: relative;
+  top: calc(-107rem/ 64);
+  left: calc(25rem/ 64);
+  font-size: calc(20rem/ 64);
+  color: #798a95;
+  margin: calc(2rem / 64) calc(32rem/ 64);
+}
+
+
+
+.take-lawsb i {
+  float: left;
+  width: calc(576rem / 64);
+  height: calc(203rem / 64);
+  background-image: url(../image/5_tm_blz_war3_play3-mobile.jpg);
+  background-size: calc(576rem / 64) calc(203rem / 64);
+  margin: calc(13rem / 64) calc(18rem/ 64);
+}
+
+.take-lawsb h5 {
+  float: left;
+  position: relative;
+  top: calc(-174rem/ 64);
+  left: calc(25rem/ 64);
+  font-size: calc(32rem/ 64);
+  color: #ffffff;
+  margin: calc(13rem / 64) calc(18rem/ 64);
+}
+
+
+.take-lawsb img {
+  width: calc(20rem / 64);
+  height: calc(30rem / 64);
+  background-size: calc(20rem / 64) calc(30rem / 64);
+  margin: calc(-5rem / 64) calc(0rem/ 64);
+
+}
+
+.take-lawsb p {
+  float: left;
+  position: relative;
+  top: calc(-170rem/ 64);
+  left: calc(25rem/ 64);
+  font-size: calc(20rem/ 64);
+  color: #798a95;
+  margin: calc(2rem / 64) calc(47rem/ 64);
+}
+
+
+/* <!-- 6.视频 --> */
+
+.dd-d {
+  overflow: hidden;
+  position: relative;
+}
+
+.dd-d i {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: calc(1314rem / 64);
+  background-image: url(../image/6_tm_blz_war3_section5-bg.jpg);
+  margin: calc(-7rem / 64) calc(0rem/ 64);
+}
+
+.taaa {
+  position: absolute;
+  float: left;
+  top: calc(4064rem / 64);
+  /* left: calc(8rem / 64);
+  width: calc(626rem / 64); */
+  height: calc(883rem / 64);
+  text-align: center;
+}
+
+.taaa h4 {
+  color: #f1bd37;
+  font-size: calc(30rem / 64);
+}
+
+.taaa h3 {
+  color: #ffffff;
+  font-size: calc(40rem / 64);
+}
+
+
+.taaa i {
+  float: left;
+  width: calc(459rem / 64);
+  height: calc(32rem / 64);
+  background-image: url(../image/3_tm_blz_war3_title-line.png);
+  background-size: calc(459rem / 64) calc(32rem / 64);
+  margin: calc(20rem / 64) calc(90rem/ 64);
+  margin-top: calc(32rem / 64);
+}
+
+
+.tbbb span {
+  font-size: calc(30rem / 64);
+  color: #ffffff;
+  float: left;
+  margin: calc(0rem / 64) calc(74rem/ 64);
+}
+
+.tccc {
+  width: calc(631rem / 64);
+  height: calc(360rem / 64);
+
+  margin: calc(151rem / 64) calc(0rem/ 64);
+}
+
+
+.tccc i {
+  width: calc(279rem / 64);
+  height: calc(123rem / 64);
+  background-image: url(../image/7_war3-website_home_yt1-gameplay-trailer.jpg);
+  background-size: calc(279rem / 64) calc(123rem / 64);
+  margin: calc(28rem / 64) calc(18rem/ 64)
+}
+
+.tccc .a {
+  width: calc(279rem / 64);
+  height: calc(123rem / 64);
+  background-image: url(../image/17_war3-website_home_yt-campaign-teaser.jpg);
+  background-size: calc(279rem / 64) calc(123rem / 64);
+  margin: calc(28rem / 64) calc(18rem/ 64)
+}
+
+.tccc .b {
+  width: calc(279rem / 64);
+  height: calc(123rem / 64);
+  background-image: url(../image/7_war3-website_home_yt-cinematic-trailer.jpg);
+  background-size: calc(279rem / 64) calc(123rem / 64);
+  margin: calc(28rem / 64) calc(18rem/ 64)
+}
+
+.tccc img {
+  width: calc(29rem / 64);
+  height: calc(29rem / 64);
+  margin: calc(48rem / 64) calc(0rem/ 64);
+}
+
+.tccc .k {
+  width: calc(279rem / 64);
+  height: calc(40rem / 64);
+  background-color: #131b16;
+  margin: calc(-40rem / 64) calc(0rem/ 64)
+}
+
+.tccc span {
+  color: #ffffff;
+  font-size: calc(25rem / 64);
+}
+
+.ee {
+  width: calc(640rem / 64);
+  height: calc(983rem / 64);
+}
+
+
+
+.ee img {
+  width: calc(600rem / 64);
+  height: calc(226rem / 64);
+  margin: calc(31rem / 64) calc(0rem/ 64);
+}
+
+
+
+
+
+.ppt {
+  width: 100%;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.ppt i {
+  background: url(../image/2_tm_blz_war3_line.png) no-repeat 91% 0;
+  width: 100%;
+  height: 26px;
+  z-index: 1;
+  position: absolute;
+  bottom: -292px;
+  left: -51px;
+
+}
+
+
+/* <!-- 7.官方信息 --> */
+
+.ee-e {
+  position: absolute;
+  top: calc(1232rem / 64);
+  width: calc(632rem / 64);
+  height: calc(296rem / 64);
+  background-color: blue;
+}
+
+.ee-e i {
+  float: left;
+  overflow: hidden;
+  width: calc(640rem / 64);
+  height: calc(400rem / 64);
+  background-image: url(../image/2_tm_blz_war3_section2-bg.jpg);
+  background-size: calc(400rem / 64) calc(400rem / 64);
+  margin: calc(0rem / 64) calc(0rem/ 64);
+}
+
+.yy {
+  float: left;
+  position: absolute;
+  width: calc(137rem / 64);
+  height: calc(123rem / 64);
+  background-color: #5f5148;
+  margin: calc(139rem / 64) calc(38rem/ 64);
+}
+
+.yy img {
+  width: calc(65rem / 64);
+  height: calc(65rem / 64);
+  margin: calc(9rem / 64) calc(24rem/ 64);
+}
+
+.yy span {
+  color: #ffffff;
+  font-size: calc(3rem / 64);
+}
+
+.yy-a {
+  float: left;
+  position: absolute;
+  width: calc(137rem / 64);
+  height: calc(123rem / 64);
+  background-color: #5f5148;
+  margin: calc(139rem / 64) calc(254rem/ 64);
+
+}
+
+.yy-a img {
+  width: calc(65rem / 64);
+  height: calc(65rem / 64);
+  margin: calc(9rem / 64) calc(24rem/ 64);
+}
+
+.yy-a span {
+  color: #ffffff;
+  font-size: calc(3rem / 64);
+}
+
+
+
+
+.yy-b {
+  float: left;
+  position: absolute;
+  width: calc(137rem / 64);
+  height: calc(123rem / 64);
+  background-color: #5f5148;
+  margin: calc(139rem / 64) calc(458rem/ 64);
+
+}
+
+.yy-b img {
+  width: calc(65rem / 64);
+  height: calc(65rem / 64);
+  margin: calc(9rem / 64) calc(24rem/ 64);
+}
+
+.yy-b span {
+  color: #ffffff;
+  font-size: calc(3rem / 64);
+}
+
+
+
+/* <!-- 8.底部版权 --> */
+
+.tt-t {
+  position: absolute;
+  top: calc(1632rem / 64);
+  width: 101%;
+  height: calc(500rem / 64);
+  background-color: #272729;
+}
+
+.eac {
+  color: #ffffff;
+  font-size: calc(10rem / 64);
+  margin: calc(116rem / 64) calc(0rem/ 64);
+}
+
+.eac .h {
+  color: #ffffff;
+  font-size: calc(10rem / 64);
+  margin: calc(9rem / 64) calc(7rem/ 64);
+}
+
+
+.eac p {
+  color: #656566;
+  width: calc(608rem / 64);
+  height: calc(33rem / 64);
+  font-size: calc(10rem / 64);
+  margin: calc(27rem / 64) calc(0rem/ 64);
+}
+
+.eac  a {
+  color: #656566;
+}
+
+.eac  a img {
+  width: calc(25rem / 64);
+  height: calc(25rem / 64);
+}
+

@@ -65,7 +65,7 @@ header .cc {
   width: 100%;
   height: calc(32rem / 64);
   background-image: url(../image/2_tm_blz_war3_line.png);
-  margin: calc(-7rem / 64) calc(0rem/ 64);
+  margin: calc(-4rem / 64) calc(0rem/ 64);
 }
 
 .aa-a {
@@ -74,7 +74,6 @@ header .cc {
 
 .aa-a i {
   float: left;
-  overflow: hidden;
   width: 100%;
   height: calc(1566rem / 64);
   background-image: url(../image/22222256678798977/1_tm_blz_war3_minisite_apply_bg3.jpg);
@@ -140,16 +139,107 @@ header .cc {
 .link a {
   color: #a5935b;
   font-size: calc(32rem / 64);
-  margin: calc(0rem / 64) calc(0rem/ 64);
 }
 
+.new-a {
+  overflow: hidden;
+  position: relative;
+}
 
+.new-a i {
+  float: left;
+  width: calc(459rem / 64);
+  height: calc(32rem / 64);
+  background-image: url(../image/3_tm_blz_war3_title-line.png);
+  background-size: calc(459rem / 64) calc(32rem / 64);
+  margin: calc(20rem / 64) calc(61rem/ 64);
+}
 
 .ee {
-    width: calc(485rem / 64);
-    height: calc(827rem / 64);
-    margin: calc(0rem / 64) calc(44rem/ 64)
+  width: calc(494rem / 64);
+  height: calc(833rem / 64);
+  margin: calc(0rem / 64) calc(46rem/ 64);
 }
+
+.link-a {
+  position: relative;
+  width: calc(349rem / 64);
+  height: calc(33rem / 64);
+  top: calc(-145rem / 64);
+  left: calc(137rem / 64);
+}
+
+
+.link-a .i-i {
+  float: left;
+  width: calc(30rem / 64);
+  height: calc(20rem / 64);
+  background-image: url(../image/22222256678798977/1_tm_blz_war3_minisite_apply_icon.png);
+  background-size: calc(30rem / 64) calc(20rem / 64);
+}
+
+.link-a span {
+  color:#ffe9a6 ;
+}
+
+.link-a a {
+  color: #f5bf1f;
+}
+
+  
+/* <!-- 3.常见问题 --> */
+
+.pp-p {
+  float: left;
+  width: calc(640rem / 64);
+  height: calc(1113rem / 64);
+  background-image: url(../image/22222256678798977/1_tm_blz_war3_minisite_apply_bg2.jpg);
+}
+
+
+.latest-news {
+  top: calc(1731rem / 64);
+  left: calc(97rem / 64);
+  width: calc(450rem / 64);
+  height: calc(900rem / 64);
+  text-align: center;
+}
+
+.latest-news span {
+  font-size: calc(45rem / 64);
+  color: #ffff;
+
+}
+
+
+.latest-news i {
+  float: left;
+  width: calc(459rem / 64);
+  height: calc(32rem / 64);
+  background-image: url(../image/3_tm_blz_war3_title-line.png);
+  background-size: calc(459rem / 64) calc(32rem / 64);
+  margin: calc(20rem / 64) calc(0rem/ 64);
+}
+
+
+ dl {
+  margin-top: 7%;
+}
+
+dt {
+  color: #ffe9a6;
+  padding-bottom: 5px;
+}
+
+dd{
+  color: #a5935b;
+  padding-bottom: 20px;
+  margin: calc(0rem / 64) calc(41rem/ 64);
+}
+
+
+
+
 
 
 
@@ -177,8 +267,8 @@ header .cc {
 
 .tt-t {
   position: absolute;
-  /* top: calc(1632rem / 64); */
-  width: 101%;
+  top: calc(2737rem / 64);
+  width: 100%;
   height: calc(500rem / 64);
   background-color: #272729;
 }

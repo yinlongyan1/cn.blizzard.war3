@@ -1,0 +1,323 @@
+/* 设计图多大 就用量出来的尺寸/设计图/10 */
+/* 88px/64 */
+/* 88px/75 */
+/* 88px/112.5 */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* <!-- 1. 顶部 --> */
+header {
+    /* float: left; */
+    width: 100%;
+    height: calc(95rem / 64);
+    background-color: #252525;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+
+/* <!-- 1-1顶部左边 --> */
+header .aa {
+    float: left;
+    width: calc(90rem / 64);
+    height: calc(70rem / 64);
+    background-image: url(../image/1_fsbnet_icon-sprite2.png);
+    background-size: calc(95rem / 64) calc(71rem / 64);
+    margin: calc(14rem / 64) calc(0rem / 64);
+}
+
+/* <!-- 1-1顶部中间 --> */
+header .bb {
+    float: left;
+    width: calc(85rem / 64);
+    height: calc(83rem / 64);
+    background-image: url(../image/1_war3-website_home_4XXM5CR1X8XJ1541005870859.png);
+    background-size: calc(85rem / 64) calc(83rem / 64);
+    margin: calc(5rem / 64) calc(187rem / 64);
+}
+
+/* <!-- 1-2顶部右边 --> */
+header .cc {
+    float: right;
+    width: calc(90rem / 64);
+    height: calc(70rem / 64);
+    background-image: url(../image/1_fsbnet_icon-sprite4.png);
+    background-size: calc(95rem / 64) calc(71rem / 64);
+    margin: calc(14rem / 64) calc(0rem / 64);
+}
+
+
+
+
+
+
+
+/* <!-- 2. 公告 --> */
+
+.ee-e {
+    overflow: hidden;
+}
+
+.ee-e i {
+    float: left;
+    width: 100%;
+    height: calc(2000rem / 64);
+    background-image: url(../image/44444444/1_tm_blz_war3_news-bg.jpg);
+    margin: calc(-30rem / 64) calc(0rem/ 64);
+}
+
+
+.gonggao {
+    /* text-align: center; */
+    position: absolute;
+    width: calc(475rem / 64);
+    height: calc(90rem / 64);
+    margin: calc(50rem / 64) calc(83rem/ 64);
+
+}
+
+.gonggao h2 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+em {
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0 5px;
+    height: 22px;
+    background-color: #465f7d;
+}
+
+
+span {
+    color: #aaa;
+    font-size: 14px;
+}
+
+
+
+.gong-gao {
+    position: absolute;
+    top:calc(290rem / 64) ;
+    width: calc(640rem / 64);
+    height: calc(810rem / 64);
+    /* margin: calc(50rem / 64) calc(83rem/ 64); */
+
+}
+
+.gong-gao img {
+    width: calc(475rem / 64);
+    height: calc(305rem / 64);
+    margin: calc(0rem / 64) calc(83rem/ 64);
+}
+
+
+.gong-gao p {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 20px;
+    width: calc(475rem / 64);
+    height: calc(184rem / 64);
+    margin: calc(0rem / 64) calc(83rem/ 64);
+}
+
+
+
+.a-ab {
+    position: absolute;
+    top: calc(984rem / 64);
+    width: calc(454rem / 64);
+    height: calc(20rem / 64);
+    margin: calc(0rem / 64) calc(83rem/ 64);
+}
+
+
+.a-ab  h4 {
+    font-size:calc(22rem / 64);
+    color: #fff;
+    margin: calc(34rem / 64) calc(0rem/ 64);
+}
+
+.a-ab p {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 22px;
+    margin: calc(34rem / 64) calc(0rem/ 64);
+}
+
+
+.a-ae {
+    position: absolute;
+    top: calc(1446rem / 64);
+    width: calc(454rem / 64);
+    height: calc(20rem / 64);
+    margin: calc(0rem / 64) calc(83rem/ 64);
+}
+
+
+.a-ae  h4 {
+    font-size:calc(32rem / 64);
+    color: #fff;
+    margin: calc(34rem / 64) calc(0rem/ 64);
+}
+
+.a-ae p {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 22px;
+    margin: calc(34rem / 64) calc(0rem/ 64);
+}
+
+.pp-p {
+    position: absolute;
+  
+    top: calc(1710rem / 64);
+    width: calc(303rem / 64);
+    height: calc(49rem / 64);
+    margin: calc(0rem / 64) calc(323rem/ 64);
+}
+
+
+.pp-p span {
+    color: #aaa;
+    font-size: 14px;
+    width: calc(100rem / 64);
+    height: calc(50rem / 64);
+}
+
+.pp-p img {
+    width: calc(25rem / 64);
+    height: calc(30rem / 64);
+}
+
+/* <!-- 2.2 官方信息 --> */
+
+.uu-u  {
+    position: absolute;
+    width: calc(640rem / 64);
+    height: calc(170rem / 64);
+    background-color: rgba(223,215,198,.15);
+    margin: calc(-186rem / 64) calc(-6rem/ 64);
+}
+
+
+
+
+.yy {
+    float: left;
+    /* position: absolute; */
+    width: calc(137rem / 64);
+    height: calc(123rem / 64);
+    background-color: #5f5148;
+    margin: calc(15rem / 64) calc(38rem/ 64)
+}
+
+.yy img {
+    width: calc(65rem / 64);
+    height: calc(65rem / 64);
+    margin: calc(9rem / 64) calc(37rem/ 64);
+}
+
+.yy span {
+    color: #ffffff;
+    font-size: calc(3rem / 64);
+    margin: calc(0rem / 64) calc(29rem/ 64);
+}
+
+.yy-a {
+    float: left;
+    position: absolute;
+    width: calc(137rem / 64);
+    height: calc(123rem / 64);
+    background-color: #5f5148;
+    margin: calc(15rem / 64) calc(254rem/ 64)
+
+}
+
+.yy-a img {
+    width: calc(65rem / 64);
+    height: calc(65rem / 64);
+    margin: calc(9rem / 64) calc(37rem/ 64);
+}
+
+.yy-a span {
+    color: #ffffff;
+    font-size: calc(3rem / 64);
+    margin: calc(0rem / 64) calc(29rem/ 64);
+}
+
+
+
+
+.yy-b {
+    position: absolute;
+    width: calc(137rem / 64);
+    height: calc(123rem / 64);
+    background-color: #5f5148;
+    margin: calc(15rem / 64) calc(480rem/ 64)
+}
+
+.yy-b img {
+    width: calc(65rem / 64);
+    height: calc(65rem / 64);
+    margin: calc(9rem / 64) calc(37rem/ 64);
+}
+
+.yy-b span {
+    color: #ffffff;
+    font-size: calc(3rem / 64);
+    margin: calc(0rem / 64) calc(29rem/ 64);
+}
+
+
+
+/* <!-- 3.底部版权 --> */
+
+.tt-t {
+    position: absolute;
+    top: calc(2032rem / 64);
+    width: 100%;
+    height: calc(500rem / 64);
+    background-color: #272729;
+}
+
+.eac {
+    color: #ffffff;
+    font-size: calc(10rem / 64);
+    margin: calc(80rem / 64) calc(0rem/ 64);
+}
+
+.eac .h {
+    color: #ffffff;
+    font-size: calc(10rem / 64);
+    margin: calc(9rem / 64) calc(7rem/ 64);
+}
+
+
+.eac p {
+    color: #656566;
+    width: calc(608rem / 64);
+    height: calc(33rem / 64);
+    font-size: calc(10rem / 64);
+    margin: calc(27rem / 64) calc(0rem/ 64);
+}
+
+.eac a {
+    color: #656566;
+}
+
+.eac a img {
+    width: calc(25rem / 64);
+    height: calc(25rem / 64);
+}

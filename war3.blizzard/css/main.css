@@ -308,6 +308,62 @@ header .cc {
   margin: calc(-7rem / 64) calc(0rem/ 64);
 }
 
+
+.head-top {
+  height: calc(103rem/64);
+  width: 100%;
+}
+
+.head-top ul {
+  overflow: hidden;
+}
+
+.head-top li {
+  float: left;
+  background-image: url(../image/1_tm_blz_war3_head.jpg);
+  width: calc(120rem/64);
+  height: calc(120rem/64);
+  background-size: calc(1000rem/64);
+  border-radius: 50%;
+  margin-left: calc(30rem/64);
+}
+
+
+
+.head-top li:nth-child(1) {
+
+  background-position: calc(-442rem/64) calc(-444rem/64);
+}
+
+.head-top li:nth-child(2) {
+  background-position: calc(-715rem/64) calc(-9rem/64);
+}
+
+.head-top li:nth-child(3) {
+  background-position: calc(-290rem/64) calc(-434rem/64);
+}
+
+.head-top li:nth-child(4) {
+  background-position: calc(-873rem/64) calc(0rem/64);
+} 
+
+.main {
+  width: 100%;
+}
+
+.main img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 .rotation-chart {
   position: absolute;
   float: left;
@@ -761,12 +817,11 @@ header .cc {
   margin: calc(27rem / 64) calc(0rem/ 64);
 }
 
-.eac  a {
+.eac a {
   color: #656566;
 }
 
-.eac  a img {
+.eac a img {
   width: calc(25rem / 64);
   height: calc(25rem / 64);
 }
-

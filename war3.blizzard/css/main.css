@@ -70,7 +70,7 @@ header .cc {
 
 .box-aa {
   position: absolute;
-  top: 490px;
+  top: 549px;
   left: 57px;
   width: 100%;
   margin: calc(-801rem / 64) calc(0rem / 64);
@@ -151,7 +151,7 @@ header .cc {
   float: left;
   overflow: hidden;
   width: 100%;
-  height: calc(1000rem / 64);
+  height: calc(1034rem / 64);
   background-image: url(../image/2_tm_blz_war3_section2-bg.jpg);
   margin: calc(-7rem / 64) calc(0rem/ 64);
 }
@@ -716,7 +716,7 @@ header .cc {
   height: calc(400rem / 64);
   background-image: url(../image/2_tm_blz_war3_section2-bg.jpg);
   background-size: calc(400rem / 64) calc(400rem / 64);
-  margin: calc(0rem / 64) calc(0rem/ 64);
+  margin: calc(-2rem / 64) calc(0rem/ 64);
 }
 
 .yy {
@@ -790,8 +790,8 @@ header .cc {
 
 .tt-t {
   position: absolute;
-  top: calc(1632rem / 64);
-  width: 101%;
+  top: calc(1629rem / 64);
+  width: 100%;
   height: calc(500rem / 64);
   background-color: #272729;
 }

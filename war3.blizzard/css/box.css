@@ -74,10 +74,14 @@ header .cc {
 
 .aa-a i {
   float: left;
-  width: 100%;
+  width: calc(640rem / 64);
   height: calc(1566rem / 64);
-  background-image: url(../image/22222256678798977/1_tm_blz_war3_minisite_apply_bg3.jpg);
+  background-image: url(../image/box2.jpg);
+  background-size: calc(640rem / 64) calc(1566rem / 64);
   margin: calc(-31rem / 64) calc(0rem/ 64);
+}
+
+
 }
 
 .latest-news {
@@ -141,6 +145,13 @@ header .cc {
   font-size: calc(32rem / 64);
 }
 
+
+
+
+
+
+
+
 .new-a {
   overflow: hidden;
   position: relative;
@@ -174,7 +185,7 @@ header .cc {
   float: left;
   width: calc(30rem / 64);
   height: calc(20rem / 64);
-  background-image: url(../image/22222256678798977/1_tm_blz_war3_minisite_apply_icon.png);
+  background-image: url(../image/box3.png);
   background-size: calc(30rem / 64) calc(20rem / 64);
 }
 
@@ -192,12 +203,14 @@ header .cc {
 .pp-p {
   float: left;
   width: calc(640rem / 64);
-  height: calc(1113rem / 64);
-  background-image: url(../image/22222256678798977/1_tm_blz_war3_minisite_apply_bg2.jpg);
+  height: calc(880rem / 64);
+  background-image: url(../image/box1.jpg);
+  background-size: calc(640rem / 64) calc(1025rem / 64);
 }
 
 
 .latest-news {
+  position: absolute;
   top: calc(1731rem / 64);
   left: calc(97rem / 64);
   width: calc(450rem / 64);
@@ -224,11 +237,13 @@ header .cc {
 
  dl {
   margin-top: 7%;
+  margin:  calc(10rem / 64)  calc(0rem / 64);
 }
 
 dt {
   color: #ffe9a6;
   padding-bottom: 5px;
+  margin:  calc(10rem / 64)  calc(0rem / 64);
 }
 
 dd{
@@ -239,37 +254,13 @@ dd{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* <!-- 4.底部版权 --> */
 
 .tt-t {
   position: absolute;
-  top: calc(2737rem / 64);
-  width: 100%;
-  height: calc(500rem / 64);
+  top: calc(2498rem / 64);
+  width: calc(640rem / 64);
+  height: calc(503rem / 64);
   background-color: #272729;
 }
 

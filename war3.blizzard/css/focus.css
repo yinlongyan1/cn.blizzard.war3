@@ -66,8 +66,8 @@ header .cc {
 .ee-e i {
     float: left;
     width: 100%;
-    height: calc(3028rem / 64);
-    background-image: url(../image/44444444/1_tm_blz_war3_news-bg.jpg);
+    height: calc(2764rem / 64);
+    background-image: url(../image/focus1.jpg.jpg);
     margin: calc(-30rem / 64) calc(0rem/ 64);
 }
 
@@ -150,7 +150,7 @@ span {
 
 .a-aa {
     position: absolute;
-    top: calc(1357rem / 64);
+    top: calc(1142rem / 64);
     width: calc(454rem / 64);
     height: calc(20rem / 64);
     margin: calc(0rem / 64) calc(83rem/ 64);
@@ -177,7 +177,7 @@ span {
 
 .a-ab {
     position: absolute;
-    top: calc(2000rem / 64);
+    top: calc(1689rem / 64);
     width: calc(454rem / 64);
     height: calc(20rem / 64);
     margin: calc(0rem / 64) calc(83rem/ 64);
@@ -210,7 +210,7 @@ span {
 
 .a-ae {
     position: absolute;
-    top: calc(2449rem / 64);
+    top: calc(2200rem / 64);
     width: calc(454rem / 64);
     height: calc(20rem / 64);
     margin: calc(0rem / 64) calc(83rem/ 64);
@@ -236,7 +236,7 @@ span {
 .pp-p {
     position: absolute;
   
-    top: calc(2736rem / 64);
+    top: calc(2500rem / 64);
     width: calc(303rem / 64);
     height: calc(49rem / 64);
     margin: calc(0rem / 64) calc(323rem/ 64);
@@ -262,7 +262,7 @@ span {
     width: calc(640rem / 64);
     height: calc(170rem / 64);
     background-color: rgba(223,215,198,.15);
-    margin: calc(-189rem / 64) calc(-6rem/ 64);
+    margin: calc(-172rem / 64) calc(-6rem/ 64);
 }
 
 
@@ -340,7 +340,7 @@ span {
 
 .tt-t {
     position: absolute;
-    top: calc(3060rem / 64);
+    top: calc(2798rem / 64);
     width: 100%;
     height: calc(500rem / 64);
     background-color: #272729;
